@@ -1,0 +1,297 @@
+.fondoF{
+
+    /*(-60deg, rgb(204, 51, 51) 50%, rgb(249, 72, 72) 50%)*/
+    z-index: -10;
+  background-image:-webkit-linear-gradient(-60deg, rgb(204, 51, 51), rgb(87, 72, 249));
+  animation:linearGradient 10s linear infinite alternate;
+  animation-direction:alternate-reverse;
+  animation-duration: 10s;
+  bottom:0;
+  left:-100%;
+  position:fixed;
+  right:-100%;
+  top:0;
+  
+  }
+
+.fondo {
+    position: fixed;
+    z-index: -1;
+    width:max-content ;
+      }
+      .fondo2 {
+        animation:slide2 10s ease-in-out infinite;
+      }
+      .fondo3 {
+        animation:slide3 10s ease-in-out infinite;
+    
+      }
+    .fondo1{
+        top: 0;
+        z-index: -1;
+        animation:slide 10s ease-in-out infinite;
+    float:left;
+        background-color: rgb(67, 67, 67);
+        opacity:0.5;
+      margin-left: 20px;
+      margin-right: 20px;
+        width:20em ;
+        height:20em ;
+        border-radius: 50%;   
+    }
+      .anima1 {
+      
+        animation-direction:initial;
+        animation-duration:25s;
+      }
+      
+      .anima2 {
+        
+        animation-direction:initial;
+        animation-duration: 30s;
+      }
+      .anima3 {
+     
+        animation-direction:initial;
+        animation-duration: 20s;
+      }
+      .anima4 {
+    
+        animation-direction:initial;
+        animation-duration:10s;
+      }
+      .anima5 {
+    
+        animation-direction:initial;
+        animation-duration: 15s;
+      }
+    .ref{
+        top: 0;
+    
+    position: fixed;
+    z-index: -1;
+       float: left;
+        background-color: rgb(255, 255, 255);
+        opacity:0.5;
+      margin-left: 5em;
+      margin-right: 5em;
+        width:5em ;
+        height:5em ;
+        border-radius: 50%;  
+    
+    }
+    .ref2{
+      position: fixed;
+      z-index: -1;
+     
+        top: 0;
+        float: left;
+        background-color: rgb(255, 255, 255);
+        opacity:0.5;
+      margin-left: 3em;
+      margin-right: 2em;
+        width:10em ;
+        height:10em ;
+        border-radius: 50%;    
+    }
+    /*ANIMACIONES */
+      @keyframes slide {
+        0% {
+          transform:translateY(-150%);
+        }
+        100% {
+          transform:translateY(250%);
+        }
+      }
+     
+      @keyframes slide2 {
+        0% {
+          transform:translateY(-200em);
+        }
+        100% {
+          transform:translateY(200em);
+        }
+      } 
+      @keyframes slide3 {
+        0% {
+          transform:translateY(-50em);
+         
+        }
+        100% {
+          transform:translateY(50em);
+        
+        }
+      }
+      
+      @keyframes slidex {
+        0% {
+          transform:translateX(-5em);
+        
+        }
+        100% {
+          transform:translateX(5em);
+        
+        }
+      }
+      
+      @keyframes linearGradient {
+        0% {
+    
+          transform: translateX(30%);
+          
+         
+        }
+        100% {
+          transform: translateX(-30%);
+         
+         
+        
+        }
+      }
+      /*NAVEGACIÓN*/
+      .nav1{
+        background-color: rgba(137, 43, 226, 0.675);
+        position: fixed;
+        display: block;
+        
+        border-start-end-radius: 3em;
+        border-start-start-radius: 3em;
+        border-end-end-radius: 3em;
+        border-end-start-radius: 3em;
+        top: 7em;
+        left: 3em;
+        width: 5em;
+        height: 31em;
+        border-color:rgb(137, 43, 226) ;
+        border-width:3px ;
+        border-style:groove;
+        float: left;
+        
+      }
+      .nav2{
+        background-color: rgba(137, 43, 226, 0);
+       
+        position: fixed;
+        margin-top: 2em;
+        display: block;
+        border-start-end-radius: 3em;
+        border-start-start-radius: 3em;
+        border-end-end-radius: 3em;
+        border-end-start-radius: 3em;
+        top: 5em;
+        left: 3em;
+        width: 5em;
+        height: 30em;
+       
+      }
+      .boton1{
+        cursor:move text("hola");
+        background-color: rgba(137, 43, 226, 1);
+       margin-top: 10px;
+       margin-left: 5px;
+        border-radius: 50%;
+        opacity: 50%;
+        top: 5em;
+        left: 20px;
+        width: 4em;
+        height: 4em;
+        border-color:rgb(137, 43, 226) ;
+        border-width:3px ;
+        border-style:groove;
+      }
+      .boton2{
+        
+        background-color: rgba(137, 43, 226, 1);
+        margin-top: 10px;
+        margin-left: 5px;
+        border-radius: 50%;
+        opacity: 50%;
+        top: 10em;
+        left: 3em;
+        width: 4em;
+        height: 4em;
+        border-color:rgb(137, 43, 226) ;
+        border-width:3px ;
+        border-style:groove;
+      
+       
+      }
+      .boton3{
+        background-color: rgba(137, 43, 226, 1);
+        margin-top: 10px;
+        margin-left: 5px;
+        border-radius: 50%;
+        opacity: 50%;
+        top: 5em;
+        left: 3em;
+        width: 4em;
+        height: 4em;
+        border-color:rgb(137, 43, 226) ;
+        border-width:3px ;
+        border-style:groove;
+        
+       
+      }
+      .boton4{
+        background-color: rgba(137, 43, 226, 1);
+      
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-left: 5px;
+        opacity: 50%;
+        top: 5em;
+        left: 3em;
+        width: 4em;
+        height: 4em;
+        border-color:rgb(137, 43, 226) ;
+        border-width:3px ;
+        border-style:groove;
+      
+       
+      }
+      .boton5{
+        background-color: rgba(137, 43, 226, 1);
+      
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-left: 5px;
+        opacity: 50%;
+        top: 5em;
+        left: 3em;
+        width: 4em;
+        height: 4em;
+        border-color:rgb(137, 43, 226) ;
+        border-width:3px ;
+        border-style:groove;
+      
+       
+      }
+      .boton6{
+        background-color: rgba(137, 43, 226, 1);
+      
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-left: 5px;
+        opacity: 50%;
+        top: 5em;
+        left: 3em;
+        width: 4em;
+        height: 4em;
+        border-color:rgb(137, 43, 226) ;
+        border-width:3px ;
+        border-style:groove;
+      
+       
+      }
+      .iconoB{
+        position:relative;
+        left: 15px;
+        top:15px;
+        width:2em;
+        height:2em;
+       
+        content-visibility:visible ;
+      }
+      .iconoB:hover{
+       content-visibility: visible ; 
+      }
