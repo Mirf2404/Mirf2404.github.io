@@ -1,11 +1,17 @@
+
+.logo img{
+  float: left;
+width: 7em;
+  height: 6em;
+ background-color: rgba(90, 63, 30, 0.763);
+  border-radius:50% ;
+}
 header{
 margin-top: -0.5em;
 
 }
 
-footer{
-    background-color: saddlebrown;
-}
+
 .iconoB{
 position: relative;
 margin-top:25% ;
@@ -40,7 +46,7 @@ content-visibility: hidden;
 .div1{
     position: fixed;
 
-width:fit-content;
+width:min-content;
 height:fit-content;
 margin-left: 25%;
 background-color: rgba(51, 51, 51, 0.675);
@@ -69,6 +75,64 @@ width:15em;
     margin-left: 10%;
 
 }
+/* Cabecera contact */
+.boton2{
+  width:4em;
+  height:4em;
+  background-color:rgb(126, 243, 243) ;
+  float:left;
+  margin-right: 2.1em;
+  margin-left: 2.1em;
+  border-end-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-start-radius: 3em;
+  border-start-end-radius: 3em;
+  
+}
+.boton2 h1{
+content: "";
+content-visibility: hidden;
+
+}
+.boton2 h3  {
+  content: "";
+  content-visibility: hidden;
+  
+}
+.div1{
+  position: fixed;
+
+width:fit-content;
+height:fit-content;
+margin-left: 25%;
+background-color: rgba(51, 51, 51, 0.675);
+border: solid ;
+border-width: 1px;
+border-end-start-radius: 3em;
+border-end-end-radius: 3em;
+}
+.boton2:hover{
+width:15em;
+
+}
+.boton2:hover h1{
+  float: right;
+  padding-right: 2em;
+  content-visibility:visible ;
+}
+.boton2:hover h3{
+  float: right;
+
+  content-visibility:visible ;
+}
+.boton2:hover .iconoB{
+
+  margin-top:5% ;
+  margin-left: 10%;
+
+}
+
+
 /*FONDO*/
 .fondoF{
 
@@ -220,7 +284,7 @@ width:15em;
         
         }
       }
-      /* BODY */
+      /* BODY Inicio */
       .seceti{
         padding-top: 10%;
         padding-left: 16%;
@@ -238,3 +302,86 @@ width:15em;
         border-end-end-radius: 3em;
         border-end-start-radius: 3em;
       }
+      .etiquetas img{
+        float: left;
+        border-end-start-radius: 7px;
+        border-start-start-radius: 7px;
+        border-start-end-radius: 3em;
+        border-end-end-radius: 3em;
+        margin-top: 2em;
+        width:13em ;
+        height:15em ;
+      }
+      .etiquetas p1{
+        width: 13em;
+        margin-right: 3em;
+        float: right;
+       font-weight: bold;
+        margin-top: 2em;
+        
+      }
+      .etiquetas p2{
+        float: right;
+       font-weight: bold;
+     width: 13em;
+     margin-right: 3em;
+     margin-top: 2em;
+      }
+      #titbody1{
+        margin-left: 40%;
+        text-decoration: underline;
+      }
+      #tarjeta{
+        float: left;
+        background-color: rgba(137, 43, 226, 0.675);
+        width:50em ;
+        height:70em ;
+        margin-left: 10%;
+        
+        border-start-end-radius: 3em;
+        border-start-start-radius: 3em;
+        border-end-end-radius: 3em;
+        border-end-start-radius: 3em;
+       
+    }
+    .txt1{
+        float: left;
+        margin-left: 2em;
+        margin-top: 2em;
+        width: 50%;
+    }
+    .txt2{
+        float: left;
+        margin-left: 40%;
+        margin-top: 2em;
+        width: 100%;
+    }
+    .Enviar{
+        float: left;
+        margin-left:40%;
+        margin-top: 2em;
+        width: 10em;
+        height: 5em;
+    }
+    .footer{
+        background-color: rgba(0, 0, 0, 0.549);
+        width: 110%;
+        margin-left: -5%;
+        height: 20em;
+        float: left;
+        margin-top: 5em;
+        border-start-end-radius: 6em;
+        border-start-start-radius:6em;
+        border-end-end-radius: 6em;
+        border-end-start-radius:6em;
+    }
+    ul{
+      float: left;
+      padding-left: 25%;
+      padding-top: 5%;
+    }
+    li{
+      
+      font: 1em sans-serif;
+color: rgb(255, 255, 255);
+    }
