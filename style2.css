@@ -1,3 +1,75 @@
+header{
+margin-top: -0.5em;
+
+}
+
+footer{
+    background-color: saddlebrown;
+}
+.iconoB{
+position: relative;
+margin-top:25% ;
+margin-left: 25%;
+    width:2em;
+    height:2em;
+    
+}
+.boton1{
+    width:4em;
+    height:4em;
+    background-color:beige ;
+    float:left;
+    margin-right: 2.1em;
+    margin-left: 2.1em;
+    border-end-start-radius: 3em;
+    border-end-end-radius: 3em;
+    border-start-start-radius: 3em;
+    border-start-end-radius: 3em;
+    
+}
+.boton1 h1{
+content: "";
+content-visibility: hidden;
+
+}
+.boton1 h3  {
+    content: "";
+    content-visibility: hidden;
+    
+}
+.div1{
+    position: fixed;
+
+width:fit-content;
+height:fit-content;
+margin-left: 25%;
+background-color: rgba(51, 51, 51, 0.675);
+border: solid ;
+border-width: 1px;
+border-end-start-radius: 3em;
+border-end-end-radius: 3em;
+}
+.boton1:hover{
+width:15em;
+
+}
+.boton1:hover h1{
+    float: right;
+    padding-right: 2em;
+    content-visibility:visible ;
+}
+.boton1:hover h3{
+    float: right;
+ 
+    content-visibility:visible ;
+}
+.boton1:hover .iconoB{
+
+    margin-top:5% ;
+    margin-left: 10%;
+
+}
+/*FONDO*/
 .fondoF{
 
     /*(-60deg, rgb(204, 51, 51) 50%, rgb(249, 72, 72) 50%)*/
@@ -148,137 +220,21 @@
         
         }
       }
-      /*NAVEGACIÓN*/
-     
-      .nav1{
-        background-color: rgba(51, 51, 51, 0.675);
-        
-        float: left;
-        border-width: 1px;
-        border-end-start-radius: 3em;
-      border-end-end-radius: 3em;
-        
-        
-        width:fit-content;
-        height:fit-content;
-        
-        border-color:rgb(51, 51, 51) ;
-      
-        border-style:groove;
-        
-        
+      /* BODY */
+      .seceti{
+        padding-top: 10%;
+        padding-left: 16%;
       }
-      
-      .boton1{
-        
-        background-color: rgba(51, 51, 51, 1);
-        
+      body .seceti .etiquetas{
         float: left;
-       margin-left:0%;
-       border-end-start-radius: 3em;
-       
-        opacity: 50%;
-        top: 0;
-        left: 0;
-        width: 9em;
-        height: 3em;
-        border-color:rgb(51, 51, 51) ;
-        border-width:3px ;
-        border-style:groove;
-      }
-      .boton2{
-   
-        background-color: rgba(51, 51, 51, 1);
-        float: left;
-        
-      
-        opacity: 50%;
-        top: 0;
-        left: 3em;
-        width: 9em;
-        height: 3em;
-        border-color:rgb(51, 51, 51) ;
-        border-width:3px ;
-        border-style:groove;
-      
-       
-      }
-      .boton3{
-        background-color: rgba(51, 51, 51, 1);
-  
-      
-        opacity: 50%;
-        top: 0em;
-        left: 3em;
-        width:9em;
-        height: 3em;
-        border-color:rgb(51, 51, 51) ;
-        border-width:3px ;
-        border-style:groove;
-        float: left;
-       
-      }
-      .boton4{
-        background-color: rgba(51, 51, 51,1);
-      
-        
-       
-       
-        opacity: 50%;
-        top: 0em;
-        left: 3em;
-        width: 9em;
-        height: 3em;
-        border-color:rgb(51, 51, 51) ;
-        border-width:3px ;
-        border-style:groove;
-        float: left;
-       
-      }
-      .boton5{
-        background-color: rgba(51, 51, 51, 1);
-     
-        
-        
-        
-        opacity: 50%;
-        top: 0em;
-        left: 3em;
-        width: 9em;
-        height: 3em;
-        border-color:rgb(51, 51, 51) ;
-        border-width:3px ;
-        border-style:groove;
-        float: left;
-       
-      }
-      .boton6{
-        background-color: rgba(51, 51, 51, 1);
-       
-        margin-right: 0%;
+        width:30em;
+        margin-top: 2em;
+        margin-left: 2em;
+        height:20em;
+        background-color: rgba(137, 43, 226, 0.675);
+        border: solid;
+        border-start-end-radius: 3em;
+        border-start-start-radius: 3em;
         border-end-end-radius: 3em;
-     
-        opacity: 50%;
-        top: 0em;
-        left: 3em;
-        width: 9em;
-        height: 3em;
-        border-color:rgb(51, 51, 51) ;
-        border-width:3px ;
-        border-style:groove;
-        float: left;
-       
+        border-end-start-radius: 3em;
       }
-      .iconoB{
-        position:relative;
-        left: 10px;
-        top:10px;
-        width:2em;
-        height:2em;
-       
-        content-visibility:visible ;
-      }
-      .iconoB:hover{
-       content-visibility: visible ; 
-      }
-     
