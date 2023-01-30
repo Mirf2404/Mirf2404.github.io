@@ -1,10 +1,9 @@
 
-.logo img{
-  float: left;
-width: 7em;
-  height: 6em;
- background-color: rgba(90, 63, 30, 0.763);
-  border-radius:50% ;
+#logo{
+  float: right;
+  width: 6em;
+  height: 5em;
+  margin-right: 1em;
 }
 header{
 margin-top: -0.5em;
@@ -43,18 +42,7 @@ content-visibility: hidden;
     content-visibility: hidden;
     
 }
-.div1{
-    position: fixed;
 
-width:min-content;
-height:fit-content;
-margin-left: 25%;
-background-color: rgba(51, 51, 51, 0.675);
-border: solid ;
-border-width: 1px;
-border-end-start-radius: 3em;
-border-end-end-radius: 3em;
-}
 .boton1:hover{
 width:15em;
 
@@ -101,16 +89,24 @@ content-visibility: hidden;
 }
 .div1{
   position: fixed;
-
-width:fit-content;
+left: 0;
+width:100%;
 height:fit-content;
-margin-left: 25%;
-background-color: rgba(51, 51, 51, 0.675);
+
+background-color: #567189ef;
 border: solid ;
 border-width: 1px;
 border-end-start-radius: 3em;
 border-end-end-radius: 3em;
 }
+#Busqueda{
+ background-color: #7B8FA1;
+  margin-top: 1em;
+  width: 15em;
+  height: 2em;
+  
+}
+
 .boton2:hover{
 width:15em;
 
@@ -138,7 +134,7 @@ width:15em;
 
     /*(-60deg, rgb(204, 51, 51) 50%, rgb(249, 72, 72) 50%)*/
     z-index: -10;
-  background-image:-webkit-linear-gradient(-60deg, rgb(204, 51, 51), rgb(87, 72, 249));
+  background-image:-webkit-linear-gradient(-60deg, #CFB997, rgb(253, 219, 167));
   animation:linearGradient 10s linear infinite alternate;
   animation-direction:alternate-reverse;
   animation-duration: 10s;
@@ -155,120 +151,10 @@ width:15em;
     z-index: -1;
     width:max-content ;
       }
-      .fondo2 {
-        animation:slide2 10s ease-in-out infinite;
-      }
-      .fondo3 {
-        animation:slide3 10s ease-in-out infinite;
+
     
-      }
-    .fondo1{
-        top: 0;
-        z-index: -1;
-        animation:slide 10s ease-in-out infinite;
-    float:left;
-        background-color: rgb(67, 67, 67);
-        opacity:0.5;
-      margin-left: 20px;
-      margin-right: 20px;
-        width:20em ;
-        height:20em ;
-        border-radius: 50%;   
-    }
-      .anima1 {
-      
-        animation-direction:initial;
-        animation-duration:25s;
-      }
-      
-      .anima2 {
-        
-        animation-direction:initial;
-        animation-duration: 30s;
-      }
-      .anima3 {
-     
-        animation-direction:initial;
-        animation-duration: 20s;
-      }
-      .anima4 {
-    
-        animation-direction:initial;
-        animation-duration:10s;
-      }
-      .anima5 {
-    
-        animation-direction:initial;
-        animation-duration: 15s;
-      }
-    .ref{
-        top: 0;
-    
-    position: fixed;
-    z-index: -1;
-       float: left;
-        background-color: rgb(255, 255, 255);
-        opacity:0.5;
-      margin-left: 5em;
-      margin-right: 5em;
-        width:5em ;
-        height:5em ;
-        border-radius: 50%;  
-    
-    }
-    .ref2{
-      position: fixed;
-      z-index: -1;
-     
-        top: 0;
-        float: left;
-        background-color: rgb(255, 255, 255);
-        opacity:0.5;
-      margin-left: 3em;
-      margin-right: 2em;
-        width:10em ;
-        height:10em ;
-        border-radius: 50%;    
-    }
     /*ANIMACIONES */
-      @keyframes slide {
-        0% {
-          transform:translateY(-150%);
-        }
-        100% {
-          transform:translateY(250%);
-        }
-      }
-     
-      @keyframes slide2 {
-        0% {
-          transform:translateY(-200em);
-        }
-        100% {
-          transform:translateY(200em);
-        }
-      } 
-      @keyframes slide3 {
-        0% {
-          transform:translateY(-50em);
-         
-        }
-        100% {
-          transform:translateY(50em);
-        
-        }
-      }
-      
-      @keyframes slidex {
-        0% {
-          transform:translateX(-5em);
-        
-        }
-        100% {
-          transform:translateX(5em);
-        
-        }
-      }
+
       
       @keyframes linearGradient {
         0% {
@@ -285,18 +171,40 @@ width:15em;
         }
       }
       /* BODY Inicio */
+      .titjue{
+margin-left: 4em;
+margin-top: -2em;
+      }
+     
+      .plat{
+        float: right;
+       margin-right: 10px;
+        width: 1em;
+        height: 1em;
+        border-radius:50% ;
+        background-color: #454e57;
+      }
+      .plat img{
+        width: 5px;
+        height:  5px;
+      }
+      .titjuel{
+        margin-left: 2em;
+        margin-top: -2em;
+              }
       .seceti{
         padding-top: 10%;
         padding-left: 16%;
       }
       body .seceti .etiquetas{
         float: left;
-        width:30em;
-        margin-top: 2em;
+        width:20em;
+        margin-top: 3em;
         margin-left: 2em;
-        height:20em;
-        background-color: rgba(137, 43, 226, 0.675);
-        border: solid;
+        height:fit-content;
+        background-color: #7B8FA1;
+        border: 5px #454e57;
+        border-style: double;
         border-start-end-radius: 3em;
         border-start-start-radius: 3em;
         border-end-end-radius: 3em;
@@ -304,40 +212,46 @@ width:15em;
       }
       .etiquetas img{
         float: left;
-        border-end-start-radius: 7px;
-        border-start-start-radius: 7px;
-        border-start-end-radius: 3em;
+        border-end-start-radius:  3em;
+        border-start-start-radius:   2.7em;
+        border-start-end-radius: 2.7em;
         border-end-end-radius: 3em;
-        margin-top: 2em;
-        width:13em ;
-        height:15em ;
+       margin-left: 0;
+        width:20em ;
+        height:20em;
       }
       .etiquetas p1{
         width: 13em;
-        margin-right: 3em;
-        float: right;
+        margin-left: 3em;
+        float: left;
        font-weight: bold;
         margin-top: 2em;
         
       }
       .etiquetas p2{
-        float: right;
+        float: left;
        font-weight: bold;
      width: 13em;
-     margin-right: 3em;
+     margin-left: 3em;
      margin-top: 2em;
       }
       #titbody1{
         margin-left: 40%;
         text-decoration: underline;
       }
+      #titbody2{
+        margin-left: 32%;
+        text-decoration: underline;
+      }
       #tarjeta{
         float: left;
-        background-color: rgba(137, 43, 226, 0.675);
+        background-color: #FAD6A5;
         width:50em ;
         height:70em ;
         margin-left: 10%;
-        
+        border: 5px #b09d80;
+        border-style: groove;
+
         border-start-end-radius: 3em;
         border-start-start-radius: 3em;
         border-end-end-radius: 3em;
