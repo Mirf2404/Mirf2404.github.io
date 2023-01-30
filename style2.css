@@ -92,7 +92,7 @@ content-visibility: hidden;
 left: 0;
 width:100%;
 height:fit-content;
-
+animation: slide2 2s linear ;
 background-color: #567189ef;
 border: solid ;
 border-width: 1px;
@@ -170,37 +170,89 @@ width:15em;
         
         }
       }
+      @keyframes slide1 {
+        0% {
+    
+         margin-left: -20em;
+         
+         
+        }
+        100% {
+        
+          margin-left: 0em;
+          
+        
+        }
+      }
+      @keyframes slide2 {
+        0% {
+    
+         margin-top: -20em;
+         
+         
+        }
+        100% {
+        
+          margin-top: 0em;
+          
+        
+        }
+      }
+      @keyframes slide3 {
+        0% {
+    
+        
+         opacity: 0%;
+         
+        }
+        100% {
+        
+          
+          opacity: 100%;
+        
+        }
+      }
       /* BODY Inicio */
       .titjue{
 margin-left: 4em;
 margin-top: -2em;
       }
-     
+    .etiquetas .plat .plati {
+      float: left;
+      width: 4em;
+      height: 4em;
+      margin-right: 1em;
+      
+    }
       .plat{
         float: right;
-       margin-right: 10px;
-        width: 1em;
-        height: 1em;
+       margin-left: 3px;
+       margin-top: -1.5em;
+        width: 5em;
+        height: 5em;
         border-radius:50% ;
         background-color: #454e57;
       }
-      .plat img{
-        width: 5px;
-        height:  5px;
-      }
-      .titjuel{
-        margin-left: 2em;
-        margin-top: -2em;
-              }
+     .plat:hover{
+      background-color: cyan;
+     }
+     .plat:focus-within{
+      background-color: cyan;
+     }
+      
       .seceti{
-        padding-top: 10%;
-        padding-left: 16%;
+        padding-top: 10em;
+        padding-left: 10em;
+       
       }
+            
       body .seceti .etiquetas{
         float: left;
-        width:20em;
-        margin-top: 3em;
-        margin-left: 2em;
+       
+        animation:slide1 5s  alternate;
+        width:80em;
+        margin-left: 0em;
+        margin-top: 1em;
         height:fit-content;
         background-color: #7B8FA1;
         border: 5px #454e57;
@@ -220,12 +272,13 @@ margin-top: -2em;
         width:20em ;
         height:20em;
       }
-      .etiquetas p1{
+      .etiquetas h2{
         width: 13em;
-        margin-left: 3em;
+        margin-left: 10px;
+        
         float: left;
        font-weight: bold;
-        margin-top: 2em;
+        margin-top: 1em;
         
       }
       .etiquetas p2{
@@ -235,20 +288,79 @@ margin-top: -2em;
      margin-left: 3em;
      margin-top: 2em;
       }
+      .etiquetas h3{
+        float: left;
+        font-weight: bold;
+      width: 22em;
+   margin-left: 28em;
+      margin-top: 10em; 
+      }
+      body .seceti .etiquetas2{
+        float: left;
+       
+        
+        width:20em;
+        margin-left: 2.5em;
+        margin-top: 1em;
+        height:fit-content;
+        background-color: #7B8FA1;
+        border: 5px #454e57;
+        border-style: double;
+        border-start-end-radius: 3em;
+        border-start-start-radius: 3em;
+        border-end-end-radius: 3em;
+        border-end-start-radius: 3em;
+      }
+      .etiquetas2 img{
+        float: left;
+        border-end-start-radius:  3em;
+        border-start-start-radius:   2.7em;
+        border-start-end-radius: 2.7em;
+        border-end-end-radius: 3em;
+       margin-left: 0;
+        width:20em ;
+        height:20em;
+      }
+      .etiquetas2 h2{
+        width: 13em;
+        margin-left: 10px;
+        
+        float: left;
+       font-weight: bold;
+        margin-top: 1em;
+        
+      }
+      .etiquetas2 p2{
+        float: left;
+       font-weight: bold;
+     width: 13em;
+     margin-left: 3em;
+     margin-top: 2em;
+      }
+      .etiquetas2 h3{
+        float: left;
+        font-weight: bold;
+      width: 22em;
+   margin-left: 28em;
+      margin-top: 10em; 
+      }
       #titbody1{
+        
         margin-left: 40%;
         text-decoration: underline;
       }
       #titbody2{
+        animation: slide3 2s linear;
         margin-left: 32%;
         text-decoration: underline;
       }
       #tarjeta{
         float: left;
+        animation: slide3 2s linear;
         background-color: #FAD6A5;
         width:50em ;
         height:70em ;
-        margin-left: 10%;
+        margin-left: 20em;
         border: 5px #b09d80;
         border-style: groove;
 
@@ -278,24 +390,30 @@ margin-top: -2em;
         height: 5em;
     }
     .footer{
+
         background-color: rgba(0, 0, 0, 0.549);
-        width: 110%;
-        margin-left: -5%;
+        width:103.3em;
+        margin-left: -1em;
+      
+     
         height: 20em;
         float: left;
         margin-top: 5em;
-        border-start-end-radius: 6em;
-        border-start-start-radius:6em;
-        border-end-end-radius: 6em;
-        border-end-start-radius:6em;
+      
     }
     ul{
       float: left;
-      padding-left: 25%;
+     margin-left: 10em;
       padding-top: 5%;
     }
     li{
-      
+      margin-top: 1em;
       font: 1em sans-serif;
 color: rgb(255, 255, 255);
+    }
+    #textp{
+      content-visibility: hidden;
+    }
+    #autor:hover #textp{
+      content-visibility: visible;
     }
