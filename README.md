@@ -5,7 +5,7 @@
 
 Las animaciones utilizadas se basan en animaciones basicas con la estiqueta 
 
-( @keyframes + <Nombre de la animacion> { 
+ @keyframes + <Nombre de la animacion> {
 "y sigue con la animacion"
      0% {
         [Depende de la animacion sería de una manera o otra, aquí se pone como inicia la animacion por ejemplo]
