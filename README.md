@@ -1,15 +1,15 @@
 # Mirf2404.github.io
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--------------------------------------------------------------ANIMACIONES------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                       ANIMACIONES
+
 Las animaciones utilizadas se basan en animaciones basicas con la estiqueta 
 
-@keyframes + <Nombre de la animacion> abrimos{ 
+@keyframes + <Nombre de la animacion>{ 
      "y sigue con la animacion"
      0% {
         [Depende de la animacion sería de una manera o otra, aquí se pone como inicia la animacion por ejemplo]
-       si quieres que empiece con un 20em de width se pondría:
+       [si quieres que empiece con un 20em de width se pondría:]
        width = 20em;
       }
       
