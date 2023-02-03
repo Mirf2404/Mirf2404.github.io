@@ -4,7 +4,7 @@
                                                        ANIMACIONES
 
 Las animaciones utilizadas se basan en animaciones basicas con la estiqueta 
-
+{
 @keyframes + <Nombre de la animacion> { 
      "y sigue con la animacion"
      0% {
@@ -19,7 +19,7 @@ Las animaciones utilizadas se basan en animaciones basicas con la estiqueta
   width = 200m 
       }
     }
-
+}
 [ Ahora a lo que quieres que reproduzca esta animacion tienes que utilizar la siguiente sintaxis en el apartado css de la seccion que quieres q lo reproduzca]
 div{
 animation: <Nombre de la animacion> + <Tiempo que dura> + <Direccion> + <tipo de animacion>;
