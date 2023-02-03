@@ -16,7 +16,7 @@ Las animaciones utilizadas se basan en animaciones basicas con la estiqueta
       100% {
        [aquí se pone como termina la animacion por ejemplo]
        si quieres que empiece con un 200em de width se pondría:
-  width = 200m 
+        width = 200m 
       }
     }
 )
