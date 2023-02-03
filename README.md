@@ -19,7 +19,7 @@ Las animaciones utilizadas se basan en animaciones basicas con la estiqueta
         width = 200m 
       }
     }
-)
+
 [ Ahora a lo que quieres que reproduzca esta animacion tienes que utilizar la siguiente sintaxis en el apartado css de la seccion que quieres q lo reproduzca]
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 div{
