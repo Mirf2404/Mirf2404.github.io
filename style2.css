@@ -444,23 +444,34 @@ margin-left: 8em;
     }
     .seceti2{
       float: left;
-      padding-top: 10em;
-      padding-left: 5em; 
+     
+      height: fit-content;
+     
+     padding-top: 5em;
+     
+      padding-left: 2em; 
+    }
+    .seceti2 h1{
+      margin-left: 40%;
+        text-decoration: underline;
+        margin-bottom: 2em;
     }
     .etiRebajas{
       float: left;
-      margin-left: 1em;
-     margin-bottom: 1.5em;
+
+      margin-left: 2em;
+     margin-bottom: 2.5em;
       border-end-start-radius:3em ;
       border-start-start-radius:3em ;
       border-end-end-radius:3em ;
       border-start-end-radius:3em ;
-      border: 1px solid #000;
-      width: fit-content;
-      height: fit-content;
+     
+      width: 26em;
+      
       
     }
     .etiRebajas img{
+      content-visibility: visible ;
       width: 25em;
       height: 15em;
       border-end-start-radius:3em ;
@@ -468,34 +479,101 @@ margin-left: 8em;
       border-end-end-radius:3em ;
       border-start-end-radius:3em ;
     }
-    .etiRebajas img:hover{
-      margin-top: 0em;
-      animation: etiRebajas 1s ;
-      animation-fill-mode:forwards;
-     
-      animation: slide3 1s reverse;
-      animation-fill-mode:forwards;
-    }
+   
     /*class="imgReb"*/
-    .etiRebajas:hover{
+    .etiRebajas:hover  img{
       
       animation: etiRebajas 1s linear;
       animation-fill-mode:forwards;
+      position: absolute;
+    
+    }
+    
+    .trailer{ 
+        
+      border-end-start-radius:3em ;
+      border-start-start-radius:3em ;
+      border-end-end-radius:3em ;
+      border-start-end-radius:3em ;
+      content-visibility: hidden ;
+      opacity: 0%;
      
+    }
+    .trailer2{ 
+        
+      border-end-start-radius:3em ;
+      border-start-start-radius:3em ;
+      border-end-end-radius:3em ;
+      border-start-end-radius:3em ;
+      content-visibility: hidden ;
+      opacity: 0%;
+     
+    }
+    .etiRebajas p{
+      margin-top: -2em;
+      margin-left: 2em;
+    }
+    .etiRebajas:hover  .trailer{
+        
+      animation: viRebajas 1s linear;
+      animation-fill-mode:forwards;
+      content-visibility: visible ;
+    
+
+    }
+    .etiRebajas:hover  .trailer2{
+      
+      animation: viRebajas 1s linear;
+      animation-fill-mode:forwards;
+      content-visibility: visible ;
+    
+
+    }
+    @keyframes mar {
+      0% {
+      
+       margin-bottom: 1.27em;
+      }
+      
+      100% {
+        
+      margin-bottom: 1.27em;
+      }
     }
     @keyframes etiRebajas {
       0% {
-        margin-top: 0em;
+        margin-top: -1em;
         width: 25em;
       height: 15em;
+       opacity: 100%;
        
       }
+      
       100% {
-        margin-top: -1em;
+        margin-top: -1.5em;
+        opacity: 0%;
         
         width: 26em;
-      height: 16em;
-      
+      height: 15em;
+  
+      }
+    }
+    @keyframes viRebajas {
+      0% {
+       
+        margin-top: -1em;
+        width: 25em;
+      height: 15em;
+      opacity: 0%;
+      }
+      100% {
+         
+        margin-top: -1.5em;
+
+        opacity: 100%;
+        width: 26em;
+      height: 15em;
+    
       }
     }
    
