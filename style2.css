@@ -89,6 +89,7 @@ content-visibility: hidden;
 }
 .div1{
   position: fixed;
+  z-index: 10;
 left: 0;
 width:100%;
 height:fit-content;
@@ -403,7 +404,10 @@ margin-left: 8em;
         margin-top: 2em;
         width: 10em;
         height: 5em;
+        
     }
+    
+ 
     .footer{
 
         background-color: rgba(0, 0, 0, 0.549);
@@ -465,7 +469,7 @@ margin-left: 8em;
       border-start-start-radius:3em ;
       border-end-end-radius:3em ;
       border-start-end-radius:3em ;
-     
+      height: 15em;
       width: 26em;
       
       
@@ -512,6 +516,7 @@ margin-left: 8em;
     .etiRebajas p{
       margin-top: -2em;
       margin-left: 2em;
+      text-transform: capitalize;
     }
     .etiRebajas:hover  .trailer{
         
@@ -529,6 +534,69 @@ margin-left: 8em;
     
 
     }
+    .Rebaja1{
+      background-color: orange;
+      position:absolute ;
+      z-index: 1;
+      border-end-start-radius:3em ;
+     
+     
+     
+      border-start-end-radius:3em ;
+      top: 21.1em;
+      width: 5.5em;
+      height: 5em;
+    }
+    .etiRebajas  .txtrebaja{
+      float: left;
+      padding-top: 3em;
+     
+     
+      color: #454e57;
+
+    margin-left: 1em;
+    }
+    .Rebaja2{
+      background-color: orange;
+      position:absolute ;
+      z-index: 10;
+      border-end-start-radius:3em ;
+     
+     
+     
+      border-start-end-radius:3em ;
+      top: 38.6em;
+      width: 5.5em;
+      height: 5em;
+    }
+    .Rebaja3{
+      background-color: orange;
+      position:absolute ;
+      z-index: 10;
+      border-end-start-radius:3em ;
+     
+     
+     
+      border-start-end-radius:3em ;
+      top: 56.1em;
+      width: 5.5em;
+      height: 5em;
+    }
+    .etiRebajas:hover .Rebaja3 {
+      animation: txtreb 1s linear;
+      animation-fill-mode:forwards;
+      position: absolute;
+    }
+    .etiRebajas:hover .Rebaja2 {
+      animation: txtreb 1s linear;
+      animation-fill-mode:forwards;
+      position: absolute;
+    }
+    .etiRebajas:hover .Rebaja1 {
+      animation: txtreb 1s linear;
+      animation-fill-mode:forwards;
+      position: absolute;
+    }
     @keyframes mar {
       0% {
       
@@ -540,6 +608,24 @@ margin-left: 8em;
       margin-bottom: 1.27em;
       }
     }
+    @keyframes txtreb {
+      0% {
+        margin-top: -1em;
+     
+       opacity: 100%;
+       
+      }
+      
+      100% {
+        margin-top: -1.5em;
+        opacity: 0%;
+        
+       
+  
+      }
+
+    }
+
     @keyframes etiRebajas {
       0% {
         margin-top: -1em;
