@@ -415,7 +415,7 @@ margin-left: 8em;
         margin-left: -1em;
       
      
-        height: 21em;
+        height: min-content;
         float: left;
         margin-top: 5em;
       
@@ -561,8 +561,7 @@ margin-left: 8em;
       position:absolute ;
       z-index: 10;
       border-end-start-radius:3em ;
-     
-     
+      z-index: 1;
      
       border-start-end-radius:3em ;
       top: 38.6em;
@@ -574,7 +573,7 @@ margin-left: 8em;
       position:absolute ;
       z-index: 10;
       border-end-start-radius:3em ;
-     
+      z-index: 1;
      
      
       border-start-end-radius:3em ;
@@ -662,5 +661,207 @@ margin-left: 8em;
     
       }
     }
+   /* LOCALIZACION CSS*/
+   .Locate{
+    position: relative;
+    width:28em ;
+    height:29em ;
+    top: 17em;
+    margin-left: 19.5em;
+    border-radius: 50%;
+   }
+   .LocateIMG{
+    z-index: -10;
+    position: relative;
+    width:30em ;
+    height:30em ;
+    
+   }
+   .LocateIMGL{
+    z-index: 0;
+    pointer-events: none;
+    position:absolute;
+    width:60em ;
+    height:60em ;
+    top: 13em;
+   left: 15em;
+   }
+  .divLup{
+    position:absolute;
+    width:30em ;
    
-   
+    height:30em ; 
+    z-index: -1;
+    top: 17em;
+    left: 18em;
+   rotate: 10deg;
+   border-start-end-radius: 100%;
+   border-end-end-radius: 100%;
+   border-start-start-radius: 100%;
+   background-image: linear-gradient(45deg,white ,transparent 75%);
+  }
+  .pos{
+    z-index: 2;
+  }
+  .tarjetalocate{
+    float: right;
+    margin-top: 7em;
+    margin-right: 4em;
+    width:35em ;
+    border-start-end-radius: 3em;
+    border-end-start-radius: 3em;
+    border-end-end-radius: 3em;
+    border-start-start-radius: 3em;
+    background-color: #454e57;
+    height: 60em;
+  }
+  .tarjetalocate h1{
+    color: aliceblue;
+    float: left;
+    margin-left: 7em;
+
+  }
+  .tarjetalocate p{
+    color: aliceblue;
+    float: left;
+    font: 1em bold ;
+    margin-top: 1em;
+    margin-left: 5em;
+
+  }
+  .tarjetalocate p1{
+    color: aliceblue;
+    float: left;
+    font: 1em bold ;
+    margin-top: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+  .tarjetalocate a input{
+    float: left;
+    width: 10em;
+    height: 5em;
+    margin-top: 2em;
+    margin-left: 17em;
+  }
+
+body ul li{
+  
+  margin-top: 2em;
+}
+body ul li .divrate{
+  float: right;
+width: 50em;
+height: 2em;
+margin-top: -0.8em;
+margin-left: 1em;
+border-start-end-radius: 3em;
+border-end-start-radius: 3em;
+border-end-end-radius: 3em;
+border-start-start-radius: 3em;
+border:5px #454e57 solid ;
+animation: rate 2s linear infinite alternate-reverse;
+background-image: linear-gradient(90deg,green 99%,transparent 1%) ;
+}
+body ul li .divrate2{
+  float: right;
+width: 50em;
+height: 2em;
+margin-top: -0.8em;
+margin-right: 5em;
+border-start-end-radius: 3em;
+border-end-start-radius: 3em;
+border-end-end-radius: 3em;
+border-start-start-radius: 3em;
+border:5px #454e57 solid ;
+animation: rate 2s linear infinite alternate-reverse;
+background-image: linear-gradient(90deg,green 98%,transparent 2%) ;
+}
+body ul li .divrate3{
+  float: right;
+width: 50em;
+height: 2em;
+margin-top: -0.8em;
+margin-right: 7em;
+border-start-end-radius: 3em;
+border-end-start-radius: 3em;
+border-end-end-radius: 3em;
+border-start-start-radius: 3em;
+border:5px #454e57 solid ;
+animation: rate 2s linear infinite alternate-reverse;
+background-image: linear-gradient(90deg,green 98%,transparent 2%) ;
+}
+body ul li .divrate4{
+  float: right;
+width: 50em;
+height: 2em;
+margin-top: -0.8em;
+margin-right: 10em;
+border-start-end-radius: 3em;
+border-end-start-radius: 3em;
+border-end-end-radius: 3em;
+border-start-start-radius: 3em;
+border:5px #454e57 solid ;
+animation: rate 2s linear infinite alternate-reverse;
+background-image: linear-gradient(90deg,green 98%,transparent 2%) ;
+}
+body ul li .divrate5{
+  float: right;
+width: 50em;
+height: 2em;
+margin-top: -0.8em;
+margin-right: 10em;
+border-start-end-radius: 3em;
+border-end-start-radius: 3em;
+border-end-end-radius: 3em;
+border-start-start-radius: 3em;
+border:5px #454e57 solid ;
+animation: rate 2s linear infinite alternate-reverse;
+background-image: linear-gradient(90deg,green 93%,transparent 7%) ;
+}
+body ul li .divrate6{
+  float: right;
+width: 50em;
+height: 2em;
+margin-top: -0.8em;
+margin-right: 9em;
+border-start-end-radius: 3em;
+border-end-start-radius: 3em;
+border-end-end-radius: 3em;
+border-start-start-radius: 3em;
+border:5px #454e57 solid ;
+animation: rate 2s linear infinite alternate-reverse;
+background-image: linear-gradient(90deg,green 90%,transparent 10%) ;
+}
+body ul li .divrate7{
+  float: right;
+width: 50em;
+height: 2em;
+margin-top: -0.8em;
+margin-right: 10em;
+border-start-end-radius: 3em;
+border-end-start-radius: 3em;
+border-end-end-radius: 3em;
+border-start-start-radius: 3em;
+border:5px #454e57 solid ;
+animation: rate 2s linear infinite alternate-reverse;
+
+background-image: linear-gradient(90deg,green 70%,transparent 30%) ;
+}
+@keyframes rate {
+  0%{
+   border-top-color: #7B8FA1 ;
+   border-left-color: #7B8FA1  ;
+   border-bottom-color: #7B8FA1  ;
+   border-right-color: #7B8FA1  ;
+  }
+  100%{
+    border-top-color: #454e57 ;
+   border-left-color: #454e57  ;
+   border-bottom-color: #454e57  ;
+   border-right-color: #454e57  ;
+    
+  }
+  
+ 
+}
