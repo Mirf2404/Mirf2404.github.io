@@ -30,3 +30,5 @@ Las animaciones utilizadas se basan en animaciones basicas con la estiqueta
      }
      
   }
+Se ha utilizado diferentes posiciones para hacer la navegacion,pagina de localizacion, etc... 
+las posiciones mas utilizadas son la fixed ,relative absolute(solo en casos especiales) y por supuesto la que mas float
