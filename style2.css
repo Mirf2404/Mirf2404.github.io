@@ -1,867 +1,959 @@
+/*FONDO*/
+.fondoF {
 
-#logo{
+  /*(-60deg, rgb(204, 51, 51) 50%, rgb(249, 72, 72) 50%)*/
+  z-index: -10;
+  background-image: -webkit-linear-gradient(-60deg, #CFB997, rgb(253, 219, 167));
+  animation: linearGradient 10s linear infinite alternate;
+  animation-direction: alternate-reverse;
+  animation-duration: 10s;
+  bottom: 0;
+  left: -100%;
+  position: fixed;
+  right: -100%;
+  top: 0;
+
+}
+
+.fondo {
+  position: fixed;
+  z-index: -1;
+  width: max-content;
+}
+/* INDEX */
+
+
+
+
+
+
+
+/* cabecera la etiqueta :hover sirve para que si pones el cursor encima cambie en la navegacion añade with a un div y muestra el texto*/
+#logo {
   float: right;
   width: 6em;
   height: 5em;
   margin-right: 1em;
 }
-header{
-margin-top: -0.5em;
+
+header {
+  margin-top: -0.5em;
 
 }
 
 
-.iconoB{
-position: relative;
-margin-top:25% ;
-margin-left: 25%;
-    width:2em;
-    height:2em;
-    
-}
-.boton1{
-    width:4em;
-    height:4em;
-    background-color:beige ;
-    float:left;
-    margin-right: 2.1em;
-    margin-left: 2.1em;
-    border-end-start-radius: 3em;
-    border-end-end-radius: 3em;
-    border-start-start-radius: 3em;
-    border-start-end-radius: 3em;
-    
-}
-.boton1 h1{
-content: "";
-content-visibility: hidden;
+.iconoB {
+  position: relative;
+  margin-top: 25%;
+  margin-left: 25%;
+  width: 2em;
+  height: 2em;
 
 }
-.boton1 h3  {
-    content: "";
-    content-visibility: hidden;
-    
-}
 
-.boton1:hover{
-width:15em;
-
-}
-.boton1:hover h1{
-    float: right;
-    padding-right: 2em;
-    content-visibility:visible ;
-}
-.boton1:hover h3{
-    float: right;
- 
-    content-visibility:visible ;
-}
-.boton1:hover .iconoB{
-
-    margin-top:5% ;
-    margin-left: 10%;
-
-}
-/* Cabecera contact */
-.boton2{
-  width:4em;
-  height:4em;
-  background-color:rgb(126, 243, 243) ;
-  float:left;
+.boton1 {
+  width: 4em;
+  height: 4em;
+  background-color: beige;
+  float: left;
   margin-right: 2.1em;
   margin-left: 2.1em;
   border-end-start-radius: 3em;
   border-end-end-radius: 3em;
   border-start-start-radius: 3em;
   border-start-end-radius: 3em;
-  
-}
-.boton2 h1{
-content: "";
-content-visibility: hidden;
 
 }
-.boton2 h3  {
+
+.boton1 h1 {
   content: "";
   content-visibility: hidden;
-  
+
 }
-.div1{
-  position: fixed;
-  z-index: 10;
-left: 0;
-width:100%;
-height:fit-content;
-animation: slide2 2s linear ;
-background-color: #567189ef;
-border: solid ;
-border-width: 1px;
-border-end-start-radius: 3em;
-border-end-end-radius: 3em;
+
+.boton1 h3 {
+  content: "";
+  content-visibility: hidden;
+
 }
-#Busqueda{
- background-color: #7B8FA1;
-  margin-top: 1em;
+
+.boton1:hover {
   width: 15em;
-  height: 2em;
-  
-}
-
-.boton2:hover{
-width:15em;
 
 }
-.boton2:hover h1{
+
+.boton1:hover h1 {
   float: right;
   padding-right: 2em;
-  content-visibility:visible ;
+  content-visibility: visible;
 }
-.boton2:hover h3{
+
+.boton1:hover h3 {
   float: right;
 
-  content-visibility:visible ;
+  content-visibility: visible;
 }
-.boton2:hover .iconoB{
 
-  margin-top:5% ;
+.boton1:hover .iconoB {
+
+  margin-top: 5%;
   margin-left: 10%;
 
 }
 
 
-/*FONDO*/
-.fondoF{
+.boton2 {
+  width: 4em;
+  height: 4em;
+  background-color: rgb(126, 243, 243);
+  float: left;
+  margin-right: 2.1em;
+  margin-left: 2.1em;
+  border-end-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-start-radius: 3em;
+  border-start-end-radius: 3em;
 
-    /*(-60deg, rgb(204, 51, 51) 50%, rgb(249, 72, 72) 50%)*/
-    z-index: -10;
-  background-image:-webkit-linear-gradient(-60deg, #CFB997, rgb(253, 219, 167));
-  animation:linearGradient 10s linear infinite alternate;
-  animation-direction:alternate-reverse;
-  animation-duration: 10s;
-  bottom:0;
-  left:-100%;
-  position:fixed;
-  right:-100%;
-  top:0;
-  
-  }
+}
 
-.fondo {
-    position: fixed;
-    z-index: -1;
-    width:max-content ;
-      }
+.boton2 h1 {
+  content: "";
+  content-visibility: hidden;
 
-    
-    /*ANIMACIONES */
+}
 
-      
-      @keyframes linearGradient {
-        0% {
-    
-          transform: translateX(30%);
-          
-         
-        }
-        100% {
-          transform: translateX(-30%);
-         
-         
-        
-        }
-      }
-      @keyframes slide1 {
-        0% {
-    
-         margin-left: -20%;
-         
-         
-        }
-        100% {
-        
-          margin-left: 0%;
-          
-        
-        }
-      }
-      @keyframes slide2 {
-        0% {
-    
-         margin-top: -20em;
-         
-         
-        }
-        100% {
-        
-          margin-top: 0em;
-          
-        
-        }
-      }
-      @keyframes slide3 {
-        0% {
-    
-        
-         opacity: 0%;
-         
-        }
-        100% {
-        
-          
-          opacity: 100%;
-        
-        }
-      }
-      /* BODY Inicio */
-      .titjue{
-margin-left: 4em;
-margin-top: -2em;
-      }
-    .etiquetas .plat .plati {
-      float: left;
-      width: 4em;
-      height: 4em;
-      margin-right: 1em;
-      
-    }
-      .plat{
-        float: right;
-       margin-left: 3px;
-       margin-top: -1.5em;
-        width: 5em;
-        height: 5em;
-        border-radius:50% ;
-        background-color: #454e57;
-      }
-     .plat:hover{
-      background-color: cyan;
-     }
-     .plat:focus-within{
-      background-color: cyan;
-     }
-      
-      .seceti{
-        float: left;
-        padding-top: 10em;
-        padding-left: 10%;
-       
-      }
-            
-      body .seceti .etiquetas{
-        float: left;
-       
-        animation:slide1 5s  alternate;
-        width:fit-content;
-        margin-left: 0em;
-        margin-top: 1em;
-        height:fit-content;
-        background-color: #7B8FA1;
-        border: 5px #454e57;
-        border-style: double;
-        border-start-end-radius: 3em;
-        border-start-start-radius: 3em;
-        border-end-end-radius: 3em;
-        border-end-start-radius: 3em;
-      }
-      .etiquetas img{
-        float: left;
-        border-end-start-radius:  3em;
-        border-start-start-radius:   2.7em;
-        border-start-end-radius: 2.7em;
-        border-end-end-radius: 3em;
-       margin-left: 0;
-        width:20em ;
-        height:20em;
-      }
-      .etiquetas h2{
-        width: 13em;
-        margin-left: 10px;
-        
-        float: left;
-       font-weight: bold;
-        margin-top: 1em;
-        
-      }
-      .etiquetas p2{
-        float: right;
-       font-weight: bold;
-     width: 13em;
-    
-     margin-top: 2em;
-      }
-      .etiquetas h3{
-        float: left;
-        font-weight: bold;
-      width: 22em;
-   
-       
-      }
-      .etiqueta2content{
-        float: right;
-        width: 50em;
-      }
-      body .seceti .etiquetas2{
-        float: left;
-       
-        
-        width:20em;
-        margin-left: 2.5em;
-        margin-top: 1em;
-        height:fit-content;
-        background-color: #7B8FA1;
-        border: 5px #454e57;
-        border-style: double;
-        border-start-end-radius: 3em;
-        border-start-start-radius: 3em;
-        border-end-end-radius: 3em;
-        border-end-start-radius: 3em;
-      }
-      .etiquetas2 img{
-        float: left;
-        border-end-start-radius:  3em;
-        border-start-start-radius:   2.7em;
-        border-start-end-radius: 2.7em;
-        border-end-end-radius: 3em;
-       margin-left: 0;
-        width:20em ;
-        height:20em;
-      }
-      .etiquetas2 h2{
-        width: 13em;
-        margin-left: 10px;
-        
-        float: left;
-       font-weight: bold;
-        margin-top: 1em;
-        
-      }
-      .etiquetas2 a{
-float: left;
-margin-left: 8em;
+.boton2 h3 {
+  content: "";
+  content-visibility: hidden;
 
-      }
-      
-      .textodjue{
-        float: right;
-        margin-top: 1em;
-        
-      }
-      .textonot{
-        float: left;
-        margin-left: 10px;
-         margin-top: 2em;
-         height: 50% ;
-      }
-      .etiquetas2 h3{
-        float: left;
-        font-weight: bold;
-      width: 22em;
-   margin-left: 28em;
-      margin-top: 10em; 
-      }
-      #titbody1{
-        
-        margin-left: 40%;
-        text-decoration: underline;
-      }
-      #titbody2{
-        animation: slide3 2s linear;
-        margin-left: 32%;
-        text-decoration: underline;
-      }
-      #tarjeta{
-        float: left;
-        animation: slide3 2s linear;
-        background-color: #FAD6A5;
-        width:50em ;
-        height:70em ;
-        margin-left: 10em;
-        border: 5px #b09d80;
-        border-style: groove;
+}
 
-        border-start-end-radius: 3em;
-        border-start-start-radius: 3em;
-        border-end-end-radius: 3em;
-        border-end-start-radius: 3em;
-       
-    }
-    .txt1{
-        float: left;
-        margin-left: 2em;
-        margin-top: 2em;
-        width: 50%;
-    }
-    .txt2{
-        float: left;
-        margin-left: 40%;
-        margin-top: 2em;
-        width: 100%;
-    }
-    .Enviar{
-        float: left;
-        margin-left:40%;
-        margin-top: 2em;
-        width: 10em;
-        height: 5em;
-        
-    }
-    
- 
-    .footer{
+.div1 {
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  width: 100%;
+  height: fit-content;
+  animation: slide2 2s linear;
+  background-color: #567189ef;
+  border: solid;
+  border-width: 1px;
+  border-end-start-radius: 3em;
+  border-end-end-radius: 3em;
+}
 
-        background-color: rgba(0, 0, 0, 0.549);
-        width:93em;
-        margin-left: -1em;
-      
-     
-        height: min-content;
-        float: left;
-        margin-top: 5em;
-      
-    }
-    ul{
-      float: left;
-     margin-left: 10em;
-      padding-top: 5%;
-    }
-    li{
-      list-style: none;
-      margin-top: 1em;
-      font: 1em sans-serif;
-      color: rgb(255, 255, 255);
-    }
-   
+#Busqueda {
+  background-color: #7B8FA1;
+  margin-top: 1em;
+  width: 15em;
+  height: 2em;
 
-    li #img1{
-      width: 3.5em;
-      margin-bottom: 1em;
-      height: 2em;
-      float: left;
-      margin-left: -0.5em;
-    }
-    li #img2{
-      width: 2em;
-      margin-bottom: 1em;
-      float: left;
-      height: 2em;
-    }
-    .seceti2{
-      float: left;
-     
-      height: fit-content;
-     
-     padding-top: 5em;
-     
-      padding-left: 2em; 
-    }
-    .seceti2 h1{
-      margin-left: 40%;
-        text-decoration: underline;
-        margin-bottom: 2em;
-    }
-    .etiRebajas{
-      float: left;
+}
 
-      margin-left: 2em;
-     margin-bottom: 2.5em;
-      border-end-start-radius:3em ;
-      border-start-start-radius:3em ;
-      border-end-end-radius:3em ;
-      border-start-end-radius:3em ;
-      height: 15em;
-      width: 26em;
-      
-      
-    }
-    .etiRebajas img{
-      content-visibility: visible ;
-      width: 25em;
-      height: 15em;
-      border-end-start-radius:3em ;
-      border-start-start-radius:3em ;
-      border-end-end-radius:3em ;
-      border-start-end-radius:3em ;
-    }
-   
-    /*class="imgReb"*/
-    .etiRebajas:hover  img{
-      
-      animation: etiRebajas 1s linear;
-      animation-fill-mode:forwards;
-      position: absolute;
-    
-    }
-    
-    .trailer{ 
-        
-      border-end-start-radius:3em ;
-      border-start-start-radius:3em ;
-      border-end-end-radius:3em ;
-      border-start-end-radius:3em ;
-      content-visibility: hidden ;
-      opacity: 0%;
-     
-    }
-    .trailer2{ 
-        
-      border-end-start-radius:3em ;
-      border-start-start-radius:3em ;
-      border-end-end-radius:3em ;
-      border-start-end-radius:3em ;
-      content-visibility: hidden ;
-      opacity: 0%;
-     
-    }
-    .etiRebajas p{
-      margin-top: -2em;
-      margin-left: 2em;
-      text-transform: capitalize;
-    }
-    .etiRebajas:hover  .trailer{
-        
-      animation: viRebajas 1s linear;
-      animation-fill-mode:forwards;
-      content-visibility: visible ;
-    
+.boton2:hover {
+  width: 15em;
 
-    }
-    .etiRebajas:hover  .trailer2{
-      
-      animation: viRebajas 1s linear;
-      animation-fill-mode:forwards;
-      content-visibility: visible ;
-    
+}
 
-    }
-    .Rebaja1{
-      background-color: orange;
-      position:absolute ;
-      z-index: 1;
-      border-end-start-radius:3em ;
-     
-     
-     
-      border-start-end-radius:3em ;
-      top: 21.1em;
-      width: 5.5em;
-      height: 5em;
-    }
-    .etiRebajas  .txtrebaja{
-      float: left;
-      padding-top: 3em;
-     
-     
-      color: #454e57;
+.boton2:hover h1 {
+  float: right;
+  padding-right: 2em;
+  content-visibility: visible;
+}
 
-    margin-left: 1em;
-    }
-    .Rebaja2{
-      background-color: orange;
-      position:absolute ;
-      z-index: 10;
-      border-end-start-radius:3em ;
-      z-index: 1;
-     
-      border-start-end-radius:3em ;
-      top: 38.6em;
-      width: 5.5em;
-      height: 5em;
-    }
-    .Rebaja3{
-      background-color: orange;
-      position:absolute ;
-      z-index: 10;
-      border-end-start-radius:3em ;
-      z-index: 1;
-     
-     
-      border-start-end-radius:3em ;
-      top: 56.1em;
-      width: 5.5em;
-      height: 5em;
-    }
-    .etiRebajas:hover .Rebaja3 {
-      animation: txtreb 1s linear;
-      animation-fill-mode:forwards;
-      position: absolute;
-    }
-    .etiRebajas:hover .Rebaja2 {
-      animation: txtreb 1s linear;
-      animation-fill-mode:forwards;
-      position: absolute;
-    }
-    .etiRebajas:hover .Rebaja1 {
-      animation: txtreb 1s linear;
-      animation-fill-mode:forwards;
-      position: absolute;
-    }
-    @keyframes mar {
-      0% {
-      
-       margin-bottom: 1.27em;
-      }
-      
-      100% {
-        
-      margin-bottom: 1.27em;
-      }
-    }
-    @keyframes txtreb {
-      0% {
-        margin-top: -1em;
-     
-       opacity: 100%;
-       
-      }
-      
-      100% {
-        margin-top: -1.5em;
-        opacity: 0%;
-        
-       
-  
-      }
+.boton2:hover h3 {
+  float: right;
 
-    }
+  content-visibility: visible;
+}
 
-    @keyframes etiRebajas {
-      0% {
-        margin-top: -1em;
-        width: 25em;
-      height: 15em;
-       opacity: 100%;
-       
-      }
-      
-      100% {
-        margin-top: -1.5em;
-        opacity: 0%;
-        
-        width: 26em;
-      height: 15em;
-  
-      }
-    }
-    @keyframes viRebajas {
-      0% {
-       
-        margin-top: -1em;
-        width: 25em;
-      height: 15em;
-      opacity: 0%;
-      }
-      100% {
-         
-        margin-top: -1.5em;
+.boton2:hover .iconoB {
 
-        opacity: 100%;
-        width: 26em;
-      height: 15em;
-    
-      }
-    }
-   /* LOCALIZACION CSS*/
-   .Locate{
-    position: relative;
-    width:28em ;
-    height:29em ;
-    top: 17em;
-    margin-left: 19.5em;
-    border-radius: 50%;
-   }
-   .LocateIMG{
-    z-index: -10;
-    position: relative;
-    width:30em ;
-    height:30em ;
-    
-   }
-   .LocateIMGL{
-    z-index: 0;
-    pointer-events: none;
-    position:absolute;
-    width:60em ;
-    height:60em ;
-    top: 13em;
-   left: 15em;
-   }
-  .divLup{
-    position:absolute;
-    width:30em ;
-   
-    height:30em ; 
-    z-index: -1;
-    top: 17em;
-    left: 18em;
-   rotate: 10deg;
-   border-start-end-radius: 100%;
-   border-end-end-radius: 100%;
-   border-start-start-radius: 100%;
-   background-image: linear-gradient(45deg,white ,transparent 75%);
-  }
-  .pos{
-    z-index: 2;
-  }
-  .tarjetalocate{
-    float: right;
-    margin-top: 7em;
-    margin-right: 4em;
-    width:35em ;
-    border-start-end-radius: 3em;
-    border-end-start-radius: 3em;
-    border-end-end-radius: 3em;
-    border-start-start-radius: 3em;
-    background-color: #454e57;
-    height: 60em;
-  }
-  .tarjetalocate h1{
-    color: aliceblue;
-    float: left;
-    margin-left: 7em;
+  margin-top: 5%;
+  margin-left: 10%;
+
+}
+
+
+
+
+
+/*ANIMACIONES */
+
+
+@keyframes linearGradient {
+  0% {
+
+    transform: translateX(30%);
+
 
   }
-  .tarjetalocate p{
-    color: aliceblue;
-    float: left;
-    font: 1em bold ;
-    margin-top: 1em;
-    margin-left: 5em;
+
+  100% {
+    transform: translateX(-30%);
+
+
 
   }
-  .tarjetalocate p1{
-    color: aliceblue;
-    float: left;
-    font: 1em bold ;
-    margin-top: 3em;
-    margin-left: 5em;
-    margin-right: 5em;
-  }
-  .tarjetalocate a input{
-    float: left;
-    width: 10em;
-    height: 5em;
-    margin-top: 2em;
-    margin-left: 17em;
+}
+
+@keyframes slide1 {
+  0% {
+
+    margin-left: -20%;
+
+
   }
 
-body ul li{
-  
+  100% {
+
+    margin-left: 0%;
+
+
+  }
+}
+
+@keyframes slide2 {
+  0% {
+
+    margin-top: -20em;
+
+
+  }
+
+  100% {
+
+    margin-top: 0em;
+
+
+  }
+}
+
+@keyframes slide3 {
+  0% {
+
+
+    opacity: 0%;
+
+  }
+
+  100% {
+
+
+    opacity: 100%;
+
+  }
+}
+
+/*  Juegos.html */
+
+
+.etiquetas .plat .plati {
+  float: left;
+  width: 4em;
+  height: 4em;
+  margin-right: 1em;
+
+}
+
+.plat {
+  float: right;
+  margin-left: 3px;
+  margin-top: -1.5em;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  background-color: #454e57;
+}
+
+.plat:hover {
+  background-color: cyan;
+}
+
+.plat:focus-within {
+  background-color: cyan;
+}
+
+.seceti {
+  float: left;
+  padding-top: 10em;
+  padding-left: 10%;
+
+}
+
+body .seceti .etiquetas {
+  float: left;
+
+  animation: slide1 5s alternate;
+  width: fit-content;
+  margin-left: 0em;
+  margin-top: 1em;
+  height: fit-content;
+  background-color: #7B8FA1;
+  border: 5px #454e57;
+  border-style: double;
+  border-start-end-radius: 3em;
+  border-start-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-end-start-radius: 3em;
+}
+
+.etiquetas img {
+  float: left;
+  border-end-start-radius: 3em;
+  border-start-start-radius: 2.7em;
+  border-start-end-radius: 2.7em;
+  border-end-end-radius: 3em;
+  margin-left: 0;
+  width: 20em;
+  height: 20em;
+}
+
+.etiquetas h2 {
+  width: 13em;
+  margin-left: 10px;
+
+  float: left;
+  font-weight: bold;
+  margin-top: 1em;
+
+}
+
+.etiquetas p2 {
+  float: right;
+  font-weight: bold;
+  width: 13em;
+
   margin-top: 2em;
 }
-body ul li .divrate{
-  float: right;
-width: 50em;
-height: 2em;
-margin-top: -0.8em;
-margin-left: 1em;
-border-start-end-radius: 3em;
-border-end-start-radius: 3em;
-border-end-end-radius: 3em;
-border-start-start-radius: 3em;
-border:5px #454e57 solid ;
-animation: rate 2s linear infinite alternate-reverse;
-background-image: linear-gradient(90deg,green 99%,transparent 1%) ;
-}
-body ul li .divrate2{
-  float: right;
-width: 50em;
-height: 2em;
-margin-top: -0.8em;
-margin-right: 5em;
-border-start-end-radius: 3em;
-border-end-start-radius: 3em;
-border-end-end-radius: 3em;
-border-start-start-radius: 3em;
-border:5px #454e57 solid ;
-animation: rate 2s linear infinite alternate-reverse;
-background-image: linear-gradient(90deg,green 98%,transparent 2%) ;
-}
-body ul li .divrate3{
-  float: right;
-width: 50em;
-height: 2em;
-margin-top: -0.8em;
-margin-right: 7em;
-border-start-end-radius: 3em;
-border-end-start-radius: 3em;
-border-end-end-radius: 3em;
-border-start-start-radius: 3em;
-border:5px #454e57 solid ;
-animation: rate 2s linear infinite alternate-reverse;
-background-image: linear-gradient(90deg,green 98%,transparent 2%) ;
-}
-body ul li .divrate4{
-  float: right;
-width: 50em;
-height: 2em;
-margin-top: -0.8em;
-margin-right: 10em;
-border-start-end-radius: 3em;
-border-end-start-radius: 3em;
-border-end-end-radius: 3em;
-border-start-start-radius: 3em;
-border:5px #454e57 solid ;
-animation: rate 2s linear infinite alternate-reverse;
-background-image: linear-gradient(90deg,green 98%,transparent 2%) ;
-}
-body ul li .divrate5{
-  float: right;
-width: 50em;
-height: 2em;
-margin-top: -0.8em;
-margin-right: 10em;
-border-start-end-radius: 3em;
-border-end-start-radius: 3em;
-border-end-end-radius: 3em;
-border-start-start-radius: 3em;
-border:5px #454e57 solid ;
-animation: rate 2s linear infinite alternate-reverse;
-background-image: linear-gradient(90deg,green 93%,transparent 7%) ;
-}
-body ul li .divrate6{
-  float: right;
-width: 50em;
-height: 2em;
-margin-top: -0.8em;
-margin-right: 9em;
-border-start-end-radius: 3em;
-border-end-start-radius: 3em;
-border-end-end-radius: 3em;
-border-start-start-radius: 3em;
-border:5px #454e57 solid ;
-animation: rate 2s linear infinite alternate-reverse;
-background-image: linear-gradient(90deg,green 90%,transparent 10%) ;
-}
-body ul li .divrate7{
-  float: right;
-width: 50em;
-height: 2em;
-margin-top: -0.8em;
-margin-right: 10em;
-border-start-end-radius: 3em;
-border-end-start-radius: 3em;
-border-end-end-radius: 3em;
-border-start-start-radius: 3em;
-border:5px #454e57 solid ;
-animation: rate 2s linear infinite alternate-reverse;
 
-background-image: linear-gradient(90deg,green 70%,transparent 30%) ;
+.etiquetas h3 {
+  float: left;
+  font-weight: bold;
+  width: 22em;
+
+
 }
+
+.etiqueta2content {
+  float: right;
+  width: 50em;
+}
+
+body .seceti .etiquetas2 {
+  float: left;
+
+
+  width: 20em;
+  margin-left: 2.5em;
+  margin-top: 1em;
+  height: fit-content;
+  background-color: #7B8FA1;
+  border: 5px #454e57;
+  border-style: double;
+  border-start-end-radius: 3em;
+  border-start-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-end-start-radius: 3em;
+}
+#titbody2 {
+  animation: slide3 2s linear;
+  margin-left: 32%;
+  text-decoration: underline;
+}
+/*  Index.html */
+.etiquetas2 img {
+  float: left;
+  border-end-start-radius: 3em;
+  border-start-start-radius: 2.7em;
+  border-start-end-radius: 2.7em;
+  border-end-end-radius: 3em;
+  margin-left: 0;
+  width: 20em;
+  height: 20em;
+}
+
+.etiquetas2 h2 {
+  width: 13em;
+  margin-left: 10px;
+
+  float: left;
+  font-weight: bold;
+  margin-top: 1em;
+
+}
+
+.etiquetas2 a {
+  float: left;
+  margin-left: 8em;
+
+}
+
+.textodjue {
+  float: right;
+  margin-top: 1em;
+
+}
+
+.textonot {
+  float: left;
+  margin-left: 10px;
+  margin-top: 2em;
+  height: 50%;
+}
+
+.etiquetas2 h3 {
+  float: left;
+  font-weight: bold;
+  width: 22em;
+  margin-left: 28em;
+  margin-top: 10em;
+}
+
+#titbody1 {
+
+  margin-left: 40%;
+  text-decoration: underline;
+}
+
+/*  Contactos.html */
+
+#tarjeta {
+  float: left;
+  animation: slide3 2s linear;
+  background-color: #FAD6A5;
+  width: 50em;
+  height: 70em;
+  margin-left: 10em;
+  border: 5px #b09d80;
+  border-style: groove;
+
+  border-start-end-radius: 3em;
+  border-start-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-end-start-radius: 3em;
+
+}
+
+.txt1 {
+  float: left;
+  margin-left: 2em;
+  margin-top: 2em;
+  width: 50%;
+}
+
+.txt2 {
+  float: left;
+  margin-left: 40%;
+  margin-top: 2em;
+  width: 100%;
+}
+
+.Enviar {
+  float: left;
+  margin-left: 40%;
+  margin-top: 2em;
+  width: 10em;
+  height: 5em;
+
+}
+/*  FOOTER */
+
+.footer {
+
+  background-color: rgba(0, 0, 0, 0.549);
+  width: 93em;
+  margin-left: -1em;
+
+
+  height: min-content;
+  float: left;
+  margin-top: 5em;
+
+}
+
+ul {
+  float: left;
+  margin-left: 10em;
+  padding-top: 5%;
+}
+
+li {
+  list-style: none;
+  margin-top: 1em;
+  font: 1em sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+
+li #img1 {
+  width: 3.5em;
+  margin-bottom: 1em;
+  height: 2em;
+  float: left;
+  margin-left: -0.5em;
+}
+
+li #img2 {
+  width: 2em;
+  margin-bottom: 1em;
+  float: left;
+  height: 2em;
+}
+/*  Rebajas.html */
+.seceti2 {
+  float: left;
+
+  height: fit-content;
+
+  padding-top: 5em;
+
+  padding-left: 2em;
+}
+
+.seceti2 h1 {
+  margin-left: 40%;
+  text-decoration: underline;
+  margin-bottom: 2em;
+}
+
+.etiRebajas {
+  float: left;
+
+  margin-left: 2em;
+  margin-bottom: 2.5em;
+  border-end-start-radius: 3em;
+  border-start-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-end-radius: 3em;
+  height: 15em;
+  width: 26em;
+
+
+}
+
+.etiRebajas img {
+  content-visibility: visible;
+  width: 25em;
+  height: 15em;
+  border-end-start-radius: 3em;
+  border-start-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-end-radius: 3em;
+}
+
+/*class="imgReb"*/
+.etiRebajas:hover img {
+
+  animation: etiRebajas 1s linear;
+  animation-fill-mode: forwards;
+  position: absolute;
+
+}
+
+.trailer {
+
+  border-end-start-radius: 3em;
+  border-start-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-end-radius: 3em;
+  content-visibility: hidden;
+  opacity: 0%;
+
+}
+
+.trailer2 {
+
+  border-end-start-radius: 3em;
+  border-start-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-end-radius: 3em;
+  content-visibility: hidden;
+  opacity: 0%;
+
+}
+
+.etiRebajas p {
+  margin-top: -2em;
+  margin-left: 2em;
+  text-transform: capitalize;
+}
+
+.etiRebajas:hover .trailer {
+
+  animation: viRebajas 1s linear;
+  animation-fill-mode: forwards;
+  content-visibility: visible;
+
+
+}
+
+.etiRebajas:hover .trailer2 {
+
+  animation: viRebajas 1s linear;
+  animation-fill-mode: forwards;
+  content-visibility: visible;
+
+
+}
+
+.Rebaja1 {
+  background-color: orange;
+  position: absolute;
+  z-index: 1;
+  border-end-start-radius: 3em;
+
+
+
+  border-start-end-radius: 3em;
+  top: 21.1em;
+  width: 5.5em;
+  height: 5em;
+}
+
+.etiRebajas .txtrebaja {
+  float: left;
+  padding-top: 3em;
+
+
+  color: #454e57;
+
+  margin-left: 1em;
+}
+
+.Rebaja2 {
+  background-color: orange;
+  position: absolute;
+  z-index: 10;
+  border-end-start-radius: 3em;
+  z-index: 1;
+
+  border-start-end-radius: 3em;
+  top: 38.6em;
+  width: 5.5em;
+  height: 5em;
+}
+
+.Rebaja3 {
+  background-color: orange;
+  position: absolute;
+  z-index: 10;
+  border-end-start-radius: 3em;
+  z-index: 1;
+
+
+  border-start-end-radius: 3em;
+  top: 56.1em;
+  width: 5.5em;
+  height: 5em;
+}
+
+.etiRebajas:hover .Rebaja3 {
+  animation: txtreb 1s linear;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+
+.etiRebajas:hover .Rebaja2 {
+  animation: txtreb 1s linear;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+
+.etiRebajas:hover .Rebaja1 {
+  animation: txtreb 1s linear;
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+/*  ANIMACIONES */
+@keyframes mar {
+  0% {
+
+    margin-bottom: 1.27em;
+  }
+
+  100% {
+
+    margin-bottom: 1.27em;
+  }
+}
+
+@keyframes txtreb {
+  0% {
+    margin-top: -1em;
+
+    opacity: 100%;
+
+  }
+
+  100% {
+    margin-top: -1.5em;
+    opacity: 0%;
+
+
+
+  }
+
+}
+
+@keyframes etiRebajas {
+  0% {
+    margin-top: -1em;
+    width: 25em;
+    height: 15em;
+    opacity: 100%;
+
+  }
+
+  100% {
+    margin-top: -1.5em;
+    opacity: 0%;
+
+    width: 26em;
+    height: 15em;
+
+  }
+}
+
+@keyframes viRebajas {
+  0% {
+
+    margin-top: -1em;
+    width: 25em;
+    height: 15em;
+    opacity: 0%;
+  }
+
+  100% {
+
+    margin-top: -1.5em;
+
+    opacity: 100%;
+    width: 26em;
+    height: 15em;
+
+  }
+}
+
+/* LOCALIZACION CSS*/
+.Locate {
+  position: relative;
+  width: 28em;
+  height: 29em;
+  top: 17em;
+  margin-left: 19.5em;
+  border-radius: 50%;
+}
+
+.LocateIMG {
+  z-index: -10;
+  position: relative;
+  width: 30em;
+  height: 30em;
+
+}
+
+.LocateIMGL {
+  z-index: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 60em;
+  height: 60em;
+  top: 13em;
+  left: 15em;
+}
+
+.divLup {
+  position: absolute;
+  width: 30em;
+
+  height: 30em;
+  z-index: -1;
+  top: 17em;
+  left: 18em;
+  rotate: 10deg;
+  border-start-end-radius: 100%;
+  border-end-end-radius: 100%;
+  border-start-start-radius: 100%;
+  background-image: linear-gradient(45deg, white, transparent 75%);
+}
+
+.pos {
+  z-index: 2;
+}
+
+.tarjetalocate {
+  float: right;
+  margin-top: 7em;
+  margin-right: 4em;
+  width: 35em;
+  border-start-end-radius: 3em;
+  border-end-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-start-radius: 3em;
+  background-color: #454e57;
+  height: 60em;
+}
+
+.tarjetalocate h1 {
+  color: aliceblue;
+  float: left;
+  margin-left: 7em;
+
+}
+
+.tarjetalocate p {
+  color: aliceblue;
+  float: left;
+  font: 1em bold;
+  margin-top: 1em;
+  margin-left: 5em;
+
+}
+
+.tarjetalocate p1 {
+  color: aliceblue;
+  float: left;
+  font: 1em bold;
+  margin-top: 3em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+.tarjetalocate a input {
+  float: left;
+  width: 10em;
+  height: 5em;
+  margin-top: 2em;
+  margin-left: 17em;
+}
+/*  MasValor.html */
+body ul li {
+
+  margin-top: 2em;
+}
+
+body ul li .divrate {
+  float: right;
+  width: 50em;
+  height: 2em;
+  margin-top: -0.8em;
+  margin-left: 1em;
+  border-start-end-radius: 3em;
+  border-end-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-start-radius: 3em;
+  border: 5px #454e57 solid;
+  animation: rate 2s linear infinite alternate-reverse;
+  background-image: linear-gradient(90deg, green 99%, transparent 1%);
+}
+
+body ul li .divrate2 {
+  float: right;
+  width: 50em;
+  height: 2em;
+  margin-top: -0.8em;
+  margin-right: 5em;
+  border-start-end-radius: 3em;
+  border-end-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-start-radius: 3em;
+  border: 5px #454e57 solid;
+  animation: rate 2s linear infinite alternate-reverse;
+  background-image: linear-gradient(90deg, green 98%, transparent 2%);
+}
+
+body ul li .divrate3 {
+  float: right;
+  width: 50em;
+  height: 2em;
+  margin-top: -0.8em;
+  margin-right: 7em;
+  border-start-end-radius: 3em;
+  border-end-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-start-radius: 3em;
+  border: 5px #454e57 solid;
+  animation: rate 2s linear infinite alternate-reverse;
+  background-image: linear-gradient(90deg, green 98%, transparent 2%);
+}
+
+body ul li .divrate4 {
+  float: right;
+  width: 50em;
+  height: 2em;
+  margin-top: -0.8em;
+  margin-right: 10em;
+  border-start-end-radius: 3em;
+  border-end-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-start-radius: 3em;
+  border: 5px #454e57 solid;
+  animation: rate 2s linear infinite alternate-reverse;
+  background-image: linear-gradient(90deg, green 98%, transparent 2%);
+}
+
+body ul li .divrate5 {
+  float: right;
+  width: 50em;
+  height: 2em;
+  margin-top: -0.8em;
+  margin-right: 10em;
+  border-start-end-radius: 3em;
+  border-end-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-start-radius: 3em;
+  border: 5px #454e57 solid;
+  animation: rate 2s linear infinite alternate-reverse;
+  background-image: linear-gradient(90deg, green 93%, transparent 7%);
+}
+
+body ul li .divrate6 {
+  float: right;
+  width: 50em;
+  height: 2em;
+  margin-top: -0.8em;
+  margin-right: 9em;
+  border-start-end-radius: 3em;
+  border-end-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-start-radius: 3em;
+  border: 5px #454e57 solid;
+  animation: rate 2s linear infinite alternate-reverse;
+  background-image: linear-gradient(90deg, green 90%, transparent 10%);
+}
+
+body ul li .divrate7 {
+  float: right;
+  width: 50em;
+  height: 2em;
+  margin-top: -0.8em;
+  margin-right: 10em;
+  border-start-end-radius: 3em;
+  border-end-start-radius: 3em;
+  border-end-end-radius: 3em;
+  border-start-start-radius: 3em;
+  border: 5px #454e57 solid;
+  animation: rate 2s linear infinite alternate-reverse;
+
+  background-image: linear-gradient(90deg, green 70%, transparent 30%);
+}
+/* Animacion MasValor.html */
 @keyframes rate {
-  0%{
-   border-top-color: #7B8FA1 ;
-   border-left-color: #7B8FA1  ;
-   border-bottom-color: #7B8FA1  ;
-   border-right-color: #7B8FA1  ;
+  0% {
+    border-top-color: #7B8FA1;
+    border-left-color: #7B8FA1;
+    border-bottom-color: #7B8FA1;
+    border-right-color: #7B8FA1;
   }
-  100%{
-    border-top-color: #454e57 ;
-   border-left-color: #454e57  ;
-   border-bottom-color: #454e57  ;
-   border-right-color: #454e57  ;
-    
+
+  100% {
+    border-top-color: #454e57;
+    border-left-color: #454e57;
+    border-bottom-color: #454e57;
+    border-right-color: #454e57;
+
   }
-  
- 
+
+
 }

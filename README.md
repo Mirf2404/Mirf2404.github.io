@@ -30,4 +30,3 @@ Las animaciones utilizadas se basan en animaciones basicas con la estiqueta
      }
      
   }
-Las Cosas que no se expliquen aquí estaran puestas como comentario en el proyecto
